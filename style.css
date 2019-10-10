@@ -1,0 +1,21 @@
+/*
+This is a comment.
+ */
+
+p {
+color: #990033;
+background-color: #99ffcc;
+border: 1 px solid #994059;
+}
+
+.links-list a {
+  background-color: #994059;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.links-list a:hover {
+  background-color: #990d3b;
+  color: white;
+}
