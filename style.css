@@ -9,27 +9,50 @@
 This is the new stuff that I'm working on.
 */
 html {
-  background-color: var(--lightblue);
+  background-color: white;
   font: 'Lucida Console', 'Monaco', 'monospace';
   padding: 0;
   margin: 0;
+  background-image: linear-gradient(to left, rgba(255,255,250,1), rgba(255,255,255,0) 80%, rgba(255,255,250,1)), url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 body {
   margin: 0 auto;
-  width: 70%;
+  color: var(--darkpurple);
+  width: 60%;
   height: 100vh;
   top: 0;
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  padding: 10px;
+}
+
+nav ul {
+  padding: 5px;
+  font-size: 10px;
+  width: 100%;
+  list-style: none;
+  display: block;
+  font-weight: bold;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--darkpurple);
 
 }
 
-ul {
-  position: top;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  display: block;
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  display: block
+  font-size: 2em;
 }
