@@ -45,53 +45,30 @@ This is a comment. The stuff below is from the old css sheet
      list-style: none;
  }*/
 
+:root {
+--lightblue: #99ffcc; /* sky blue */
+--darkpurple: #660066; /* deep purple */
+--midpurple: #7d7394; /* medium between purple and blue */
+--midblue: #8cbfb2; /* blue with a bit of purple */
+}
 
 /*
 This is the new stuff that I'm working on.
 */
 html {
-  color: #990033;
-  background-color: #99ffcc;
-}
+  background-color: lightblue;
+  font: 'Lucida Console', 'Monaco', 'monospace';
 
-p {
-color: #990033;
-background-color: #99ffcc;
-border: 1 px solid #994059;
-}
-
-.links-list a {
-  background-color: #994059;
-  color: white;
-  text-decoration: none;
-  padding: 1em 2em;
-}
-
-.links-list a:hover {
-  background-color: #990d3b;
-  color: white;
 }
 
 body {
-background-color: #994059;
-color: white;
-font-family:
-margin: 5em;
-  pading: 0 3em;
+  height: 100%
+}
+.bg {
+  background-image: url(background.jpg);
+  height: 100%
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%
 }
 
-ul.nav {
-  list-style-type: none
-}
- ul, ol {
-   margin: 3px
-   padding: 5px
- }
-
-header {
-
-}
-
-main {
-
-}
