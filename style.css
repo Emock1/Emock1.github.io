@@ -81,9 +81,6 @@ a {
   text-decoration: bold;
 }
 
-a:visited {
-color: var(--midblue);
-}
 a:hover {
   text-decoration: underline;
 }
