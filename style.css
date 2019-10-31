@@ -11,7 +11,7 @@ This is the new stuff that I'm working on.
 */
 html {
   background-color: white;
-  font: 'Lucida Console', 'Monaco', 'monospace';
+  font-family: "New Century Schoolbook";
   padding: 0;
   margin: 0;
   background-image: linear-gradient(to left, rgba(255,255,250,1), rgba(255,255,255,0) 80%, rgba(255,255,250,1)), url("background.jpg");
