@@ -78,6 +78,7 @@ footer {
 
 a {
   font-weight: bold;
+  color: var(--darkpurple);
 }
 
 a:hover {
