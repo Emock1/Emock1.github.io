@@ -25,6 +25,7 @@ body {
   height: 100vh;
   top: 0;
   padding: 10px;
+  font-size: 35px;
 }
 
 nav ul {
@@ -86,6 +87,6 @@ a:hover {
 }
 
 h1 {
-  display: block
+  display: block;
   font-size: 50px;
 }
