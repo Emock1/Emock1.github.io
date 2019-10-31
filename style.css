@@ -78,11 +78,9 @@ footer {
 }
 
 
-a:link {
-color: var(--midblue);
-}
+
 a:visited {
-color: var(--midpurple);
+color: var(--midblue);
 }
 a:hover {
   text-decoration: underline;
