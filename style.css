@@ -78,7 +78,7 @@ footer {
 }
 
 a {
-  text-decoration: bold;
+  font-weight: bold;
 }
 
 a:hover {
